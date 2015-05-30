@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" filepath="$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" filepath="$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/createnotification/createnotification.iml" filepath="$PROJECT_DIR$/createnotification/createnotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamiclistview/dynamiclistview.iml" filepath="$PROJECT_DIR$/dynamiclistview/dynamiclistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/internaldatabase/internaldatabase.iml" filepath="$PROJECT_DIR$/internaldatabase/internaldatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" filepath="$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serverconnection/serverconnection.iml" filepath="$PROJECT_DIR$/serverconnection/serverconnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
+    </modules>
+  </component>
+</project>
+
