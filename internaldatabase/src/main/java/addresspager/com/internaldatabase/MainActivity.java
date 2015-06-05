@@ -48,22 +48,28 @@ class lib{
         this.c=c;
         this.queryExe();
     }
-    public void queryExe(){
-        //this.getWriteDatabase().execSQL("CREATE TABLE test (id  INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT  )");
-
-        this.getWriteDatabase().execSQL("insert into test(name)values('test2')");
-        Cursor c = this.getWriteDatabase().rawQuery("select * from test", null);
-        if(c.moveToFirst()){
-            do{
-                Log.i("praveen",""+c.getInt(c.getColumnIndex("id"))+c.getString(c.getColumnIndex("name")));
-            }while(c.moveToNext());
-
+    public void queryExe() {
+        try {
+            database d = new database(this.c);
+            this.l("started..");
+            if (!d.checkAndCreateDatabase()) {
+                d.createDatabase();
+            }
+            Cursor c = this.getWriteDatabase().rawQuery("select * from category", null);
+            if (c.moveToFirst()) {
+                do {
+                    Log.i("praveen", "" + c.getInt(c.getColumnIndex("id")) + c.getString(c.getColumnIndex("name")));
+                } while (c.moveToNext());
+            }
+        } catch (Exception e) {
+            this.l("error " + e.getMessage());
+            //this.getDatabase().
         }
-
-        //this.getDatabase().
     }
     public SQLiteDatabase getWriteDatabase(){
         return new database(c).getWritableDatabase();
     }
-
+    public void l(String M){
+        Log.i("praveen",M);
+    }
 }
