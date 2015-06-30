@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/alaram/alaram.iml" filepath="$PROJECT_DIR$/alaram/alaram.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" filepath="$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" filepath="$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" />
@@ -15,4 +16,3 @@
     </modules>
   </component>
 </project>
-

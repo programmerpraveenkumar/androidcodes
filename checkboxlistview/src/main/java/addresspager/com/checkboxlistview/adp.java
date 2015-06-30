@@ -19,6 +19,7 @@ import java.util.ArrayList;
  * Created by pravaeen kumar new on 24-05-2015.
  */
 public class adp extends BaseAdapter {
+
     ArrayList<loadtmp> con = this.getContent();
     Context c;
     public adp(Context c){
