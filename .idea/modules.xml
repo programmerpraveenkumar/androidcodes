@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" filepath="$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" />
       <module fileurl="file://$PROJECT_DIR$/createnotification/createnotification.iml" filepath="$PROJECT_DIR$/createnotification/createnotification.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamiclistview/dynamiclistview.iml" filepath="$PROJECT_DIR$/dynamiclistview/dynamiclistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expandablelistview/expandablelistview.iml" filepath="$PROJECT_DIR$/expandablelistview/expandablelistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/explistview/explistview.iml" filepath="$PROJECT_DIR$/explistview/explistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/internaldatabase/internaldatabase.iml" filepath="$PROJECT_DIR$/internaldatabase/internaldatabase.iml" />
       <module fileurl="file://$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" filepath="$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />

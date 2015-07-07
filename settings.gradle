@@ -1,1 +1,1 @@
-include ':app', ':licenseinandroid2', ':mylibrary', ':serverconnection', ':checkinternetconnection', ':createnotification', ':checkboxlistview', ':internaldatabase', ':dynamiclistview', ':alaram'
+include ':app', ':licenseinandroid2', ':mylibrary', ':serverconnection', ':checkinternetconnection', ':createnotification', ':checkboxlistview', ':internaldatabase', ':dynamiclistview', ':alaram', ':expandablelistview', ':explistview'
