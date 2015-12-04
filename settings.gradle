@@ -1,1 +1,1 @@
-include ':app', ':licenseinandroid2', ':mylibrary', ':serverconnection', ':checkinternetconnection', ':createnotification', ':checkboxlistview', ':internaldatabase', ':dynamiclistview', ':alaram', ':expandablelistview', ':explistview', ':insoft', ':insoft2', ':drag_and_drop'
+include ':app', ':licenseinandroid2', ':mylibrary', ':serverconnection', ':checkinternetconnection', ':createnotification', ':checkboxlistview', ':internaldatabase', ':dynamiclistview', ':alaram', ':expandablelistview', ':explistview', ':insoft', ':insoft2', ':drag_and_drop', ':google_clould_messaging'
