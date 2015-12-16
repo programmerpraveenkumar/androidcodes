@@ -1,7 +1,8 @@
 package addresspager.com.explistview;
 
-import android.support.v7.app.ActionBarActivity;
+
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -13,7 +14,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends FragmentActivity {
     HashMap cr;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         cr = createData.getData();
         ExpandableListView expandableListView = (ExpandableListView) findViewById(R.id.exp_listview);
-        List title = new ArrayList<>(cr.keySet());
+        //List title = new ArrayList<>(cr.keySet());
         adapter a = new adapter();
         expandableListView.setAdapter(a);
     }
