@@ -8,24 +8,25 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.TranslateAnimation;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    Button show_animation;
+    Button hide_animation;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        show_animation = (Button) findViewById(R.id.show_animation);
+        hide_animation = (Button) findViewById(R.id.hide_animation);
+        show_animation.setOnClickListener(this);
+        hide_animation.setOnClickListener(this);
     }
 
     @Override
@@ -48,5 +49,34 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View view) {
+        try{
+
+            LinearLayout ani_layout = (LinearLayout)findViewById(R.id.ani_layout);
+            if(view.getId()== R.id.show_animation){
+                ani_layout.setVisibility(LinearLayout.VISIBLE);
+                ani_layout.bringToFront();
+                //TranslateAnimation slide = new TranslateAnimation(0,0,1.0f,10.0f);
+                TranslateAnimation slide = new TranslateAnimation(  0, 0,0, 0f, Animation.RELATIVE_TO_PARENT, 1.0f, Animation.RELATIVE_TO_PARENT, 0f);
+                slide.setDuration(1000);
+                slide.setFillAfter(true);
+                ani_layout.startAnimation(slide);
+                show_animation.setVisibility(View.INVISIBLE);
+            }else if(view.getId()== R.id.hide_animation){
+                Toast.makeText(this,"Error hide calling ",Toast.LENGTH_SHORT).show();
+                TranslateAnimation slide = new TranslateAnimation(  0, 0,0, 0f, Animation.RELATIVE_TO_PARENT, 0f, Animation.RELATIVE_TO_PARENT, 1.0f);
+                slide.setDuration(1000);
+                slide.setFillAfter(true);
+                ani_layout.startAnimation(slide);
+                ani_layout.setVisibility(View.INVISIBLE);
+                show_animation.setVisibility(View.VISIBLE);
+            }
+        }catch (Exception e){
+            Toast.makeText(this,"Error "+e.getMessage(),Toast.LENGTH_SHORT).show();
+        }
+
     }
 }
