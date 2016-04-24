@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#da21f2">
+        <Button
+            android:id="@+id/show_next_screen"
+            android:text="Show Next Screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <ListView
+                android:id="@+id/list_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:alpha="0.8"
+        android:orientation="vertical"
+        android:id="@+id/lay_next"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0fd154">
+
+        <ListView
+            android:id="@+id/list_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+        <Button
+            android:id="@+id/close_screen"
+            android:text="Close Screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
