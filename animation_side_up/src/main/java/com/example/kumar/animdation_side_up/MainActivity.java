@@ -8,24 +8,24 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    Button make_animation;
+    Button close;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        setContentView(R.layout.main);
+        make_animation = (Button) findViewById(R.id.make_animation);
+        make_animation.setOnClickListener(this);
+        close = (Button) findViewById(R.id.close);
+        close.setOnClickListener(this);
     }
 
     @Override
@@ -48,5 +48,29 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+        //v.setClickable(false);
+
+        LinearLayout layout = (LinearLayout) findViewById(R.id.anim_layout);
+        Animation slideUp = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_up);
+        Animation slideDown = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_down);
+        if (v.getId() == R.id.make_animation) {
+            Toast.makeText(this, "visible", Toast.LENGTH_SHORT).show();
+
+            layout.startAnimation(slideUp);
+            layout.setVisibility(View.VISIBLE);
+            make_animation.setVisibility(View.INVISIBLE);
+        } else if (v.getId() == R.id.close) {
+            {
+                Toast.makeText(this, "In visible", Toast.LENGTH_SHORT).show();
+                layout.startAnimation(slideDown);
+                layout.setVisibility(View.INVISIBLE);
+                make_animation.setVisibility(View.VISIBLE);
+            }
+            //v.setClickable(true);
+        }
     }
 }
