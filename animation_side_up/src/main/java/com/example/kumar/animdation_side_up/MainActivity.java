@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.animation.Animation;
+<<<<<<< HEAD
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -17,15 +18,34 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button make_animation;
     Button close;
+=======
+import android.view.animation.TranslateAnimation;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    Button show_animation;
+    Button hide_animation;
+
+>>>>>>> 8ceafd5d6f97ab3eab0d7dbf92805903d706f00d
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.main);
         make_animation = (Button) findViewById(R.id.make_animation);
         make_animation.setOnClickListener(this);
         close = (Button) findViewById(R.id.close);
         close.setOnClickListener(this);
+=======
+        setContentView(R.layout.activity_main);
+        show_animation = (Button) findViewById(R.id.show_animation);
+        hide_animation = (Button) findViewById(R.id.hide_animation);
+        show_animation.setOnClickListener(this);
+        hide_animation.setOnClickListener(this);
+>>>>>>> 8ceafd5d6f97ab3eab0d7dbf92805903d706f00d
     }
 
     @Override
@@ -51,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
+<<<<<<< HEAD
     public void onClick(View v) {
         //v.setClickable(false);
 
@@ -72,5 +93,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             //v.setClickable(true);
         }
+=======
+    public void onClick(View view) {
+        try{
+
+            LinearLayout ani_layout = (LinearLayout)findViewById(R.id.ani_layout);
+            if(view.getId()== R.id.show_animation){
+                ani_layout.setVisibility(LinearLayout.VISIBLE);
+                ani_layout.bringToFront();
+                //TranslateAnimation slide = new TranslateAnimation(0,0,1.0f,10.0f);
+                TranslateAnimation slide = new TranslateAnimation(  0, 0,0, 0f, Animation.RELATIVE_TO_PARENT, 1.0f, Animation.RELATIVE_TO_PARENT, 0f);
+                slide.setDuration(1000);
+                slide.setFillAfter(true);
+                ani_layout.startAnimation(slide);
+                show_animation.setVisibility(View.INVISIBLE);
+            }else if(view.getId()== R.id.hide_animation){
+                Toast.makeText(this,"Error hide calling ",Toast.LENGTH_SHORT).show();
+                TranslateAnimation slide = new TranslateAnimation(  0, 0,0, 0f, Animation.RELATIVE_TO_PARENT, 0f, Animation.RELATIVE_TO_PARENT, 1.0f);
+                slide.setDuration(1000);
+                slide.setFillAfter(true);
+                ani_layout.startAnimation(slide);
+                ani_layout.setVisibility(View.INVISIBLE);
+                show_animation.setVisibility(View.VISIBLE);
+            }
+        }catch (Exception e){
+            Toast.makeText(this,"Error "+e.getMessage(),Toast.LENGTH_SHORT).show();
+        }
+
+>>>>>>> 8ceafd5d6f97ab3eab0d7dbf92805903d706f00d
     }
 }
