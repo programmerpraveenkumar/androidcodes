@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" filepath="$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" filepath="$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" />
       <module fileurl="file://$PROJECT_DIR$/createnotification/createnotification.iml" filepath="$PROJECT_DIR$/createnotification/createnotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_view/custom_view.iml" filepath="$PROJECT_DIR$/custom_view/custom_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/drag_and_drop/drag_and_drop.iml" filepath="$PROJECT_DIR$/drag_and_drop/drag_and_drop.iml" />
       <module fileurl="file://$PROJECT_DIR$/expandablelistview/expandablelistview.iml" filepath="$PROJECT_DIR$/expandablelistview/expandablelistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/explistview/explistview.iml" filepath="$PROJECT_DIR$/explistview/explistview.iml" />
