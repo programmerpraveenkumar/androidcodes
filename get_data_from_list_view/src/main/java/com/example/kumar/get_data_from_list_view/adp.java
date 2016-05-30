@@ -1,5 +1,6 @@
 package com.example.kumar.get_data_from_list_view;
 
+
 import android.content.Context;
 import android.preference.CheckBoxPreference;
 import android.util.Log;
@@ -23,7 +24,7 @@ public class adp extends BaseAdapter {
     //ArrayList<loadtmp> con = this.getContent();
     ArrayList<loadtmp> con = null;
     Context c;
-    public adp(Context c,ArrayList<loadtmp> con){
+    public adp(Context c, ArrayList<loadtmp> con){
         this.c=c;
         this.con= con;
     }

@@ -281,7 +281,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected String doInBackground(String... re) {
                 HttpClient client = new DefaultHttpClient();
-                HttpPost post = new HttpPost("http://ksource.co.in/gcm/register.php?mail=org_code&name=code&reg_id="+regid);
+                HttpPost post = new HttpPost("http://10.0.2.2/nizar_gcm/register.php?mail=org_code&name=code&reg_id="+regid);
                 try{
                     //post.setEntity(new UrlEncodedFormEntity(valobj));
                     HttpResponse ree = client.execute(post);

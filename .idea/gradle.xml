@@ -5,7 +5,6 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -13,6 +12,7 @@
             <option value="$PROJECT_DIR$/animation_side_up" />
             <option value="$PROJECT_DIR$/checkboxlistview" />
             <option value="$PROJECT_DIR$/checkinternetconnection" />
+            <option value="$PROJECT_DIR$/contentprovider" />
             <option value="$PROJECT_DIR$/createnotification" />
             <option value="$PROJECT_DIR$/drag_and_drop" />
             <option value="$PROJECT_DIR$/expandablelistview" />
@@ -33,6 +33,7 @@
             <option value="$PROJECT_DIR$/animation_side_up" />
             <option value="$PROJECT_DIR$/checkboxlistview" />
             <option value="$PROJECT_DIR$/checkinternetconnection" />
+            <option value="$PROJECT_DIR$/contentprovider" />
             <option value="$PROJECT_DIR$/createnotification" />
             <option value="$PROJECT_DIR$/drag_and_drop" />
             <option value="$PROJECT_DIR$/expandablelistview" />
