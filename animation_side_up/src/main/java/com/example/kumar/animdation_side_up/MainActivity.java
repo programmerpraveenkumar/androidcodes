@@ -9,6 +9,16 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.animation.Animation;
+<<<<<<< HEAD
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    Button make_animation;
+    Button close;
+=======
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -18,15 +28,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button show_animation;
     Button hide_animation;
 
+>>>>>>> 8ceafd5d6f97ab3eab0d7dbf92805903d706f00d
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
+        setContentView(R.layout.main);
+        make_animation = (Button) findViewById(R.id.make_animation);
+        make_animation.setOnClickListener(this);
+        close = (Button) findViewById(R.id.close);
+        close.setOnClickListener(this);
+=======
         setContentView(R.layout.activity_main);
         show_animation = (Button) findViewById(R.id.show_animation);
         hide_animation = (Button) findViewById(R.id.hide_animation);
         show_animation.setOnClickListener(this);
         hide_animation.setOnClickListener(this);
+>>>>>>> 8ceafd5d6f97ab3eab0d7dbf92805903d706f00d
     }
 
     @Override
@@ -52,6 +71,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
+<<<<<<< HEAD
+    public void onClick(View v) {
+        //v.setClickable(false);
+
+        LinearLayout layout = (LinearLayout) findViewById(R.id.anim_layout);
+        Animation slideUp = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_up);
+        Animation slideDown = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_down);
+        if (v.getId() == R.id.make_animation) {
+            Toast.makeText(this, "visible", Toast.LENGTH_SHORT).show();
+
+            layout.startAnimation(slideUp);
+            layout.setVisibility(View.VISIBLE);
+            make_animation.setVisibility(View.INVISIBLE);
+        } else if (v.getId() == R.id.close) {
+            {
+                Toast.makeText(this, "In visible", Toast.LENGTH_SHORT).show();
+                layout.startAnimation(slideDown);
+                layout.setVisibility(View.INVISIBLE);
+                make_animation.setVisibility(View.VISIBLE);
+            }
+            //v.setClickable(true);
+        }
+=======
     public void onClick(View view) {
         try{
 
@@ -78,5 +120,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Toast.makeText(this,"Error "+e.getMessage(),Toast.LENGTH_SHORT).show();
         }
 
+>>>>>>> 8ceafd5d6f97ab3eab0d7dbf92805903d706f00d
     }
 }

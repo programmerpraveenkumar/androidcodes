@@ -25,6 +25,7 @@
     <LinearLayout
         android:animateLayoutChanges="true"
         android:weightSum="3"
+
         android:orientation="vertical"
         android:id="@+id/lay_next"
         android:visibility="invisible"

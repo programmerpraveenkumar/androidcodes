@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -65,15 +66,16 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         return tmp;
     }
     public void printText(String text){
-        Log.i("praveen ", text);
+        //Log.i("praveen ", text);
+        Toast.makeText(this, ""+text, Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onClick(View view) {
         //printText("calling");
+       //final LinearLayout lay_next = (LinearLayout) findViewById(R.id.lay_next);
         LinearLayout lay_next = (LinearLayout) findViewById(R.id.lay_next);
         RelativeLayout parent_lay = (RelativeLayout) findViewById(R.id.parent_lay);
-
         switch (view.getId() ){
             case R.id.show_next_screen:
                 printText("show next screen");
