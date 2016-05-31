@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/alaram/alaram.iml" filepath="$PROJECT_DIR$/alaram/alaram.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidcodes.iml" filepath="$PROJECT_DIR$/androidcodes.iml" />
       <module fileurl="file://$PROJECT_DIR$/animation_side_up/animation_side_up.iml" filepath="$PROJECT_DIR$/animation_side_up/animation_side_up.iml" />
+      <module fileurl="file://$PROJECT_DIR$/call_js_from_native/call_js_from_native.iml" filepath="$PROJECT_DIR$/call_js_from_native/call_js_from_native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/call_js_native_java/call_js_native_java.iml" filepath="$PROJECT_DIR$/call_js_native_java/call_js_native_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" filepath="$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" filepath="$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" />
       <module fileurl="file://$PROJECT_DIR$/contentprovider/contentprovider.iml" filepath="$PROJECT_DIR$/contentprovider/contentprovider.iml" />
