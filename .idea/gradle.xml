@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/alaram" />
             <option value="$PROJECT_DIR$/animation_side_up" />
+            <option value="$PROJECT_DIR$/call_js_native_java" />
             <option value="$PROJECT_DIR$/checkboxlistview" />
             <option value="$PROJECT_DIR$/checkinternetconnection" />
             <option value="$PROJECT_DIR$/contentprovider" />
@@ -23,6 +24,7 @@
             <option value="$PROJECT_DIR$/internaldatabase" />
             <option value="$PROJECT_DIR$/licenseinandroid2" />
             <option value="$PROJECT_DIR$/material" />
+            <option value="$PROJECT_DIR$/motion_sensar" />
             <option value="$PROJECT_DIR$/mylibrary" />
             <option value="$PROJECT_DIR$/serverconnection" />
           </set>
@@ -32,6 +34,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/alaram" />
             <option value="$PROJECT_DIR$/animation_side_up" />
+            <option value="$PROJECT_DIR$/call_js_native_java" />
             <option value="$PROJECT_DIR$/checkboxlistview" />
             <option value="$PROJECT_DIR$/checkinternetconnection" />
             <option value="$PROJECT_DIR$/contentprovider" />
@@ -45,6 +48,7 @@
             <option value="$PROJECT_DIR$/internaldatabase" />
             <option value="$PROJECT_DIR$/licenseinandroid2" />
             <option value="$PROJECT_DIR$/material" />
+            <option value="$PROJECT_DIR$/motion_sensar" />
             <option value="$PROJECT_DIR$/mylibrary" />
             <option value="$PROJECT_DIR$/serverconnection" />
           </set>

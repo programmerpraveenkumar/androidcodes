@@ -1,2 +1,2 @@
-include ':licenseinandroid2', ':mylibrary', ':serverconnection', ':checkinternetconnection', ':createnotification', ':checkboxlistview', ':internaldatabase', ':alaram', ':expandablelistview', ':explistview', ':google_clould_messaging', ':drag_and_drop', ':material', ':animation_side_up', ':get_data_from_list_view', ':contentprovider', ':create_folder_in_m'
+include ':licenseinandroid2', ':mylibrary', ':serverconnection', ':checkinternetconnection', ':createnotification', ':checkboxlistview', ':internaldatabase', ':alaram', ':expandablelistview', ':explistview', ':google_clould_messaging', ':drag_and_drop', ':material', ':animation_side_up', ':get_data_from_list_view', ':contentprovider', ':create_folder_in_m', ':call_js_native_java', ':motion_sensar'
 
