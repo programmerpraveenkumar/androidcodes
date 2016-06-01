@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/alaram/alaram.iml" filepath="$PROJECT_DIR$/alaram/alaram.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidcodes.iml" filepath="$PROJECT_DIR$/androidcodes.iml" />
       <module fileurl="file://$PROJECT_DIR$/animation_side_up/animation_side_up.iml" filepath="$PROJECT_DIR$/animation_side_up/animation_side_up.iml" />
-      <module fileurl="file://$PROJECT_DIR$/call_js_from_native/call_js_from_native.iml" filepath="$PROJECT_DIR$/call_js_from_native/call_js_from_native.iml" />
       <module fileurl="file://$PROJECT_DIR$/call_js_native_java/call_js_native_java.iml" filepath="$PROJECT_DIR$/call_js_native_java/call_js_native_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" filepath="$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" filepath="$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" />
@@ -20,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/internaldatabase/internaldatabase.iml" filepath="$PROJECT_DIR$/internaldatabase/internaldatabase.iml" />
       <module fileurl="file://$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" filepath="$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" />
       <module fileurl="file://$PROJECT_DIR$/material/material.iml" filepath="$PROJECT_DIR$/material/material.iml" />
+      <module fileurl="file://$PROJECT_DIR$/motion_sensar/motion_sensar.iml" filepath="$PROJECT_DIR$/motion_sensar/motion_sensar.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/serverconnection/serverconnection.iml" filepath="$PROJECT_DIR$/serverconnection/serverconnection.iml" />
     </modules>
