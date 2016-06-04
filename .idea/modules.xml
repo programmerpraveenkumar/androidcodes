@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/explistview/explistview.iml" filepath="$PROJECT_DIR$/explistview/explistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/get_data_from_list_view/get_data_from_list_view.iml" filepath="$PROJECT_DIR$/get_data_from_list_view/get_data_from_list_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/google_clould_messaging/google_clould_messaging.iml" filepath="$PROJECT_DIR$/google_clould_messaging/google_clould_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intent_service/intent_service.iml" filepath="$PROJECT_DIR$/intent_service/intent_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/internaldatabase/internaldatabase.iml" filepath="$PROJECT_DIR$/internaldatabase/internaldatabase.iml" />
       <module fileurl="file://$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" filepath="$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" />
       <module fileurl="file://$PROJECT_DIR$/material/material.iml" filepath="$PROJECT_DIR$/material/material.iml" />
