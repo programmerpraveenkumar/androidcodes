@@ -10,7 +10,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/alaram" />
+            <option value="$PROJECT_DIR$/alarmlistener" />
             <option value="$PROJECT_DIR$/animation_side_up" />
+            <option value="$PROJECT_DIR$/call_internet_internet_available" />
             <option value="$PROJECT_DIR$/call_js_native_java" />
             <option value="$PROJECT_DIR$/checkboxlistview" />
             <option value="$PROJECT_DIR$/checkinternetconnection" />
@@ -35,7 +37,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/alaram" />
+            <option value="$PROJECT_DIR$/alarmlistener" />
             <option value="$PROJECT_DIR$/animation_side_up" />
+            <option value="$PROJECT_DIR$/call_internet_internet_available" />
             <option value="$PROJECT_DIR$/call_js_native_java" />
             <option value="$PROJECT_DIR$/checkboxlistview" />
             <option value="$PROJECT_DIR$/checkinternetconnection" />

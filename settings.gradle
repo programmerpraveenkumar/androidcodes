@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 include ':licenseinandroid2', ':mylibrary', ':serverconnection', ':checkinternetconnection', ':createnotification', ':checkboxlistview', ':internaldatabase', ':alaram', ':expandablelistview', ':explistview', ':google_clould_messaging', ':drag_and_drop', ':material', ':animation_side_up', ':get_data_from_list_view', ':contentprovider', ':create_folder_in_m', ':call_js_native_java', ':motion_sensar', ':intent_service'
+=======
+include ':licenseinandroid2', ':mylibrary', ':serverconnection', ':checkinternetconnection', ':createnotification', ':checkboxlistview', ':internaldatabase', ':alaram', ':expandablelistview', ':explistview', ':google_clould_messaging', ':drag_and_drop', ':material', ':animation_side_up', ':get_data_from_list_view', ':contentprovider', ':create_folder_in_m', ':call_js_native_java', ':motion_sensar', ':call_internet_internet_available', ':alarmlistener'
+>>>>>>> cf741462613bf829e96b6fa85e851d1e03f2bb2b
 
