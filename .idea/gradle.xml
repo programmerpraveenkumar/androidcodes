@@ -31,6 +31,7 @@
             <option value="$PROJECT_DIR$/motion_sensar" />
             <option value="$PROJECT_DIR$/mylibrary" />
             <option value="$PROJECT_DIR$/serverconnection" />
+            <option value="$PROJECT_DIR$/xmpp_connection" />
           </set>
         </option>
         <option name="myModules">
@@ -58,6 +59,7 @@
             <option value="$PROJECT_DIR$/motion_sensar" />
             <option value="$PROJECT_DIR$/mylibrary" />
             <option value="$PROJECT_DIR$/serverconnection" />
+            <option value="$PROJECT_DIR$/xmpp_connection" />
           </set>
         </option>
       </GradleProjectSettings>
