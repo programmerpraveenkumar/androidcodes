@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" filepath="$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" />
       <module fileurl="file://$PROJECT_DIR$/material/material.iml" filepath="$PROJECT_DIR$/material/material.iml" />
       <module fileurl="file://$PROJECT_DIR$/motion_sensar/motion_sensar.iml" filepath="$PROJECT_DIR$/motion_sensar/motion_sensar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiple_downloads/multiple_downloads.iml" filepath="$PROJECT_DIR$/multiple_downloads/multiple_downloads.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/serverconnection/serverconnection.iml" filepath="$PROJECT_DIR$/serverconnection/serverconnection.iml" />
       <module fileurl="file://$PROJECT_DIR$/xmpp_connection/xmpp_connection.iml" filepath="$PROJECT_DIR$/xmpp_connection/xmpp_connection.iml" />
