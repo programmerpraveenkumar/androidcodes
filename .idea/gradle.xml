@@ -5,7 +5,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="E:\android-studio-2.0\gradle\gradle-2.10" />
+        <option name="gradleHome" value="D:\android-studio-2.0\gradle\gradle-2.10" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/contentprovider" />
             <option value="$PROJECT_DIR$/create_folder_in_m" />
             <option value="$PROJECT_DIR$/createnotification" />
+            <option value="$PROJECT_DIR$/download_from_internet" />
             <option value="$PROJECT_DIR$/drag_and_drop" />
             <option value="$PROJECT_DIR$/expandablelistview" />
             <option value="$PROJECT_DIR$/explistview" />
@@ -26,10 +27,10 @@
             <option value="$PROJECT_DIR$/google_clould_messaging" />
             <option value="$PROJECT_DIR$/intent_service" />
             <option value="$PROJECT_DIR$/internaldatabase" />
+            <option value="$PROJECT_DIR$/layout_multiple_screens" />
             <option value="$PROJECT_DIR$/licenseinandroid2" />
             <option value="$PROJECT_DIR$/material" />
             <option value="$PROJECT_DIR$/motion_sensar" />
-            <option value="$PROJECT_DIR$/multiple_downloads" />
             <option value="$PROJECT_DIR$/mylibrary" />
             <option value="$PROJECT_DIR$/serverconnection" />
             <option value="$PROJECT_DIR$/xmpp_connection" />
@@ -48,6 +49,7 @@
             <option value="$PROJECT_DIR$/contentprovider" />
             <option value="$PROJECT_DIR$/create_folder_in_m" />
             <option value="$PROJECT_DIR$/createnotification" />
+            <option value="$PROJECT_DIR$/download_from_internet" />
             <option value="$PROJECT_DIR$/drag_and_drop" />
             <option value="$PROJECT_DIR$/expandablelistview" />
             <option value="$PROJECT_DIR$/explistview" />
@@ -55,10 +57,10 @@
             <option value="$PROJECT_DIR$/google_clould_messaging" />
             <option value="$PROJECT_DIR$/intent_service" />
             <option value="$PROJECT_DIR$/internaldatabase" />
+            <option value="$PROJECT_DIR$/layout_multiple_screens" />
             <option value="$PROJECT_DIR$/licenseinandroid2" />
             <option value="$PROJECT_DIR$/material" />
             <option value="$PROJECT_DIR$/motion_sensar" />
-            <option value="$PROJECT_DIR$/multiple_downloads" />
             <option value="$PROJECT_DIR$/mylibrary" />
             <option value="$PROJECT_DIR$/serverconnection" />
             <option value="$PROJECT_DIR$/xmpp_connection" />

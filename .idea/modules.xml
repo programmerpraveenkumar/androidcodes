@@ -13,17 +13,19 @@
       <module fileurl="file://$PROJECT_DIR$/contentprovider/contentprovider.iml" filepath="$PROJECT_DIR$/contentprovider/contentprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/create_folder_in_m/create_folder_in_m.iml" filepath="$PROJECT_DIR$/create_folder_in_m/create_folder_in_m.iml" />
       <module fileurl="file://$PROJECT_DIR$/createnotification/createnotification.iml" filepath="$PROJECT_DIR$/createnotification/createnotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/download_from_internet/download_from_internet.iml" filepath="$PROJECT_DIR$/download_from_internet/download_from_internet.iml" />
       <module fileurl="file://$PROJECT_DIR$/drag_and_drop/drag_and_drop.iml" filepath="$PROJECT_DIR$/drag_and_drop/drag_and_drop.iml" />
       <module fileurl="file://$PROJECT_DIR$/expandablelistview/expandablelistview.iml" filepath="$PROJECT_DIR$/expandablelistview/expandablelistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/explistview/explistview.iml" filepath="$PROJECT_DIR$/explistview/explistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layout_multiple_screens/frag_multiple_screens.iml" filepath="$PROJECT_DIR$/layout_multiple_screens/frag_multiple_screens.iml" />
       <module fileurl="file://$PROJECT_DIR$/get_data_from_list_view/get_data_from_list_view.iml" filepath="$PROJECT_DIR$/get_data_from_list_view/get_data_from_list_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/google_clould_messaging/google_clould_messaging.iml" filepath="$PROJECT_DIR$/google_clould_messaging/google_clould_messaging.iml" />
       <module fileurl="file://$PROJECT_DIR$/intent_service/intent_service.iml" filepath="$PROJECT_DIR$/intent_service/intent_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/internaldatabase/internaldatabase.iml" filepath="$PROJECT_DIR$/internaldatabase/internaldatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layout_multiple_screens/layout_multiple_screens.iml" filepath="$PROJECT_DIR$/layout_multiple_screens/layout_multiple_screens.iml" />
       <module fileurl="file://$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" filepath="$PROJECT_DIR$/licenseinandroid2/licenseinandroid2.iml" />
       <module fileurl="file://$PROJECT_DIR$/material/material.iml" filepath="$PROJECT_DIR$/material/material.iml" />
       <module fileurl="file://$PROJECT_DIR$/motion_sensar/motion_sensar.iml" filepath="$PROJECT_DIR$/motion_sensar/motion_sensar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multiple_downloads/multiple_downloads.iml" filepath="$PROJECT_DIR$/multiple_downloads/multiple_downloads.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/serverconnection/serverconnection.iml" filepath="$PROJECT_DIR$/serverconnection/serverconnection.iml" />
       <module fileurl="file://$PROJECT_DIR$/xmpp_connection/xmpp_connection.iml" filepath="$PROJECT_DIR$/xmpp_connection/xmpp_connection.iml" />
