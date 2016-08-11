@@ -3,8 +3,75 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="JDK" />
+        <option name="gradleHome" value="I:\android-studio-2.0\gradle\gradle-2.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/alaram" />
+            <option value="$PROJECT_DIR$/alarmlistener" />
+            <option value="$PROJECT_DIR$/animation_side_up" />
+            <option value="$PROJECT_DIR$/call_internet_internet_available" />
+            <option value="$PROJECT_DIR$/call_js_native_java" />
+            <option value="$PROJECT_DIR$/checkboxlistview" />
+            <option value="$PROJECT_DIR$/checkinternetconnection" />
+            <option value="$PROJECT_DIR$/contentprovider" />
+            <option value="$PROJECT_DIR$/create_folder_in_m" />
+            <option value="$PROJECT_DIR$/createnotification" />
+            <option value="$PROJECT_DIR$/deep_linking" />
+            <option value="$PROJECT_DIR$/download_from_internet" />
+            <option value="$PROJECT_DIR$/drag_and_drop" />
+            <option value="$PROJECT_DIR$/expandablelistview" />
+            <option value="$PROJECT_DIR$/explistview" />
+            <option value="$PROJECT_DIR$/fragment_dialog" />
+            <option value="$PROJECT_DIR$/get_data_from_list_view" />
+            <option value="$PROJECT_DIR$/google_clould_messaging" />
+            <option value="$PROJECT_DIR$/intent_service" />
+            <option value="$PROJECT_DIR$/internaldatabase" />
+            <option value="$PROJECT_DIR$/layout_multiple_screens" />
+            <option value="$PROJECT_DIR$/licenseinandroid2" />
+            <option value="$PROJECT_DIR$/material" />
+            <option value="$PROJECT_DIR$/motion_sensar" />
+            <option value="$PROJECT_DIR$/mylibrary" />
+            <option value="$PROJECT_DIR$/parcelable_class" />
+            <option value="$PROJECT_DIR$/serverconnection" />
+            <option value="$PROJECT_DIR$/xmpp_connection" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/alaram" />
+            <option value="$PROJECT_DIR$/alarmlistener" />
+            <option value="$PROJECT_DIR$/animation_side_up" />
+            <option value="$PROJECT_DIR$/call_internet_internet_available" />
+            <option value="$PROJECT_DIR$/call_js_native_java" />
+            <option value="$PROJECT_DIR$/checkboxlistview" />
+            <option value="$PROJECT_DIR$/checkinternetconnection" />
+            <option value="$PROJECT_DIR$/contentprovider" />
+            <option value="$PROJECT_DIR$/create_folder_in_m" />
+            <option value="$PROJECT_DIR$/createnotification" />
+            <option value="$PROJECT_DIR$/deep_linking" />
+            <option value="$PROJECT_DIR$/download_from_internet" />
+            <option value="$PROJECT_DIR$/drag_and_drop" />
+            <option value="$PROJECT_DIR$/expandablelistview" />
+            <option value="$PROJECT_DIR$/explistview" />
+            <option value="$PROJECT_DIR$/fragment_dialog" />
+            <option value="$PROJECT_DIR$/get_data_from_list_view" />
+            <option value="$PROJECT_DIR$/google_clould_messaging" />
+            <option value="$PROJECT_DIR$/intent_service" />
+            <option value="$PROJECT_DIR$/internaldatabase" />
+            <option value="$PROJECT_DIR$/layout_multiple_screens" />
+            <option value="$PROJECT_DIR$/licenseinandroid2" />
+            <option value="$PROJECT_DIR$/material" />
+            <option value="$PROJECT_DIR$/motion_sensar" />
+            <option value="$PROJECT_DIR$/mylibrary" />
+            <option value="$PROJECT_DIR$/parcelable_class" />
+            <option value="$PROJECT_DIR$/serverconnection" />
+            <option value="$PROJECT_DIR$/xmpp_connection" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
