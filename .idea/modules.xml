@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/call_js_native_java/call_js_native_java.iml" filepath="$PROJECT_DIR$/call_js_native_java/call_js_native_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" filepath="$PROJECT_DIR$/checkboxlistview/checkboxlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" filepath="$PROJECT_DIR$/checkinternetconnection/checkinternetconnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collapse_layout/collapse_layout.iml" filepath="$PROJECT_DIR$/collapse_layout/collapse_layout.iml" />
       <module fileurl="file://$PROJECT_DIR$/contentprovider/contentprovider.iml" filepath="$PROJECT_DIR$/contentprovider/contentprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/create_folder_in_m/create_folder_in_m.iml" filepath="$PROJECT_DIR$/create_folder_in_m/create_folder_in_m.iml" />
       <module fileurl="file://$PROJECT_DIR$/createnotification/createnotification.iml" filepath="$PROJECT_DIR$/createnotification/createnotification.iml" />

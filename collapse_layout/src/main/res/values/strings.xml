@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">collapse_layout</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam varius blandit enim quis interdum. Nulla fringilla nibh congue orci volutpat, id auctor quam tristique. Donec quis fringilla nisi, id dignissim est. Pellentesque quam massa, imperdiet non nisl sed, viverra molestie quam. Etiam ligula odio, accumsan at nunc mollis, vestibulum dictum tortor. Phasellus non urna ac ex malesuada vulputate ac non metus. Nulla id vulputate velit, sit amet vehicula quam. Praesent imperdiet ut tortor et imperdiet. Pellentesque eget tortor ullamcorper, ornare justo eu, varius diam. Nullam quis ante sit amet lacus ullamcorper euismod. Maecenas mattis luctus dictum. Nulla a luctus justo.
+
+Curabitur cursus sem quis elit posuere, vel tincidunt enim tempus. Sed iaculis pulvinar lorem. Integer egestas cursus odio in gravida. Duis nisi sapien, rutrum eget porta a, dapibus et elit. Sed felis libero, ullamcorper in risus consequat, ultricies convallis felis. Ut non viverra tellus, vehicula euismod quam. Sed fermentum nibh erat, nec finibus risus lacinia et. Vestibulum condimentum pulvinar blandit. Nam eget pharetra quam. Duis maximus non purus non ultricies. Nulla et leo vel lacus scelerisque semper.
+
+Sed lobortis mattis risus vel tempus. Mauris eu maximus massa. Vestibulum euismod porttitor dolor sed semper. Sed vitae felis auctor, pharetra turpis vel, vulputate orci. Integer aliquam in mauris a porttitor. Donec auctor aliquet arcu auctor faucibus. Proin felis libero, faucibus eleifend accumsan dictum, vestibulum euismod ipsum. In turpis nibh, rutrum sit amet felis ut, porta tincidunt enim. Mauris placerat cursus nulla et aliquam. Morbi fermentum mauris a orci malesuada, ac pulvinar ante hendrerit. Curabitur pretium imperdiet lacus vitae pulvinar. Vivamus ut nisl tempor, ultrices lacus pulvinar, dictum justo. Curabitur vel fermentum nibh.</string>
+    <string-array name="list">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+        <item>Item 6</item>
+        <item>Item 7</item>
+        <item>Item 8</item>
+        <item>Item 9</item>
+        <item>Item 10</item>
+        <item>Item 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+        <item>Item 14</item>
+        <item>Item 15</item>
+        <item>Item 16</item>
+        <item>Item 17</item>
+        <item>Item 18</item>
+        <item>Item 19</item>
+        <item>Item 20</item>
+        <item>Item 21</item>
+    </string-array>
+</resources>
