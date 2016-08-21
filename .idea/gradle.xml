@@ -36,6 +36,7 @@
             <option value="$PROJECT_DIR$/mylibrary" />
             <option value="$PROJECT_DIR$/parcelable_class" />
             <option value="$PROJECT_DIR$/serverconnection" />
+            <option value="$PROJECT_DIR$/textviewanimation" />
             <option value="$PROJECT_DIR$/xmpp_connection" />
           </set>
         </option>
@@ -70,6 +71,7 @@
             <option value="$PROJECT_DIR$/mylibrary" />
             <option value="$PROJECT_DIR$/parcelable_class" />
             <option value="$PROJECT_DIR$/serverconnection" />
+            <option value="$PROJECT_DIR$/textviewanimation" />
             <option value="$PROJECT_DIR$/xmpp_connection" />
           </set>
         </option>
