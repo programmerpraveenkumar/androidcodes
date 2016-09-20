@@ -12,5 +12,7 @@ public class MainActivity extends AppCompatActivity {
         custom_v praveen_lay = (custom_v) findViewById(R.id.cus);
         praveen_lay.loadTitleText("Title of the page")
                 .loadText("you got this values");
+        Log.i("praveen",""+R.id.cus+" "+praveen_lay._v_id());
+//        Log.i("praveen",""+R.id.cus+" "+praveen_lay._v_id());
     }
 }

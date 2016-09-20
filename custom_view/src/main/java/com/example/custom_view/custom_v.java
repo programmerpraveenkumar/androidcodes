@@ -2,6 +2,7 @@ package com.example.custom_view;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -29,5 +30,10 @@ public class custom_v extends LinearLayout {
     }
     public void loadText(String t){
         text.setText(t);
+    }
+
+    public void _v_id(){
+        String m = ""+this.getId();
+        Log.i("praveen",m);
     }
 }
