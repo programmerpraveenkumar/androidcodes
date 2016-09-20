@@ -7,6 +7,7 @@ import android.util.SparseBooleanArray;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.ArrayAdapter;
 import android.widget.CheckedTextView;
 import android.widget.ListView;
@@ -23,6 +24,17 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         lst.setAdapter(a);
         lst.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
         a.notifyDataSetChanged();
+        lst.setOnScrollListener(new AbsListView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(AbsListView absListView, int i) {
+                l(""+ absListView.getFirstVisiblePosition());
+            }
+
+            @Override
+            public void onScroll(AbsListView absListView, int i, int i1, int i2) {
+
+            }
+        });
     }
 
     @Override
@@ -69,5 +81,8 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
                 ((CheckedTextView)v).toggle();
             break;
         }
+    }
+    public void l(String M){
+        Log.i("praveen",M);
     }
 }

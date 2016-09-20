@@ -62,7 +62,7 @@ public class adp extends BaseAdapter {
     }
     public ArrayList<loadtmp> getContent(){
         ArrayList<loadtmp> tmp = new ArrayList<loadtmp>();
-        for(int i=0;i<10;i++){
+        for(int i=0;i<25;i++){
            tmp.add(new loadtmp("test"+i,"tag"+i));
         }
         return tmp;
