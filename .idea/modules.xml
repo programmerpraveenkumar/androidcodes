@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/material/material.iml" filepath="$PROJECT_DIR$/material/material.iml" />
       <module fileurl="file://$PROJECT_DIR$/motion_sensar/motion_sensar.iml" filepath="$PROJECT_DIR$/motion_sensar/motion_sensar.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notification/notification.iml" filepath="$PROJECT_DIR$/notification/notification.iml" />
       <module fileurl="file://$PROJECT_DIR$/parcelable_class/parcelable_class.iml" filepath="$PROJECT_DIR$/parcelable_class/parcelable_class.iml" />
       <module fileurl="file://$PROJECT_DIR$/serverconnection/serverconnection.iml" filepath="$PROJECT_DIR$/serverconnection/serverconnection.iml" />
       <module fileurl="file://$PROJECT_DIR$/textviewanimation/textviewanimation.iml" filepath="$PROJECT_DIR$/textviewanimation/textviewanimation.iml" />

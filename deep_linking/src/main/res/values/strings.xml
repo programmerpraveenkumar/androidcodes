@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">deep_linking</string>
+    <string name="title_activity_main">deep_linking</string>
 </resources>
