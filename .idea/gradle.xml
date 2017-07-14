@@ -46,46 +46,7 @@
             <option value="$PROJECT_DIR$/xmpp_connection" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/alaram" />
-            <option value="$PROJECT_DIR$/alarmlistener" />
-            <option value="$PROJECT_DIR$/androidtabs" />
-            <option value="$PROJECT_DIR$/animation_side_up" />
-            <option value="$PROJECT_DIR$/call_internet_internet_available" />
-            <option value="$PROJECT_DIR$/call_js_native_java" />
-            <option value="$PROJECT_DIR$/checkboxlistview" />
-            <option value="$PROJECT_DIR$/checkinternetconnection" />
-            <option value="$PROJECT_DIR$/collapse_layout" />
-            <option value="$PROJECT_DIR$/com.praveen.share_file" />
-            <option value="$PROJECT_DIR$/contentprovider" />
-            <option value="$PROJECT_DIR$/create_folder_in_m" />
-            <option value="$PROJECT_DIR$/createnotification" />
-            <option value="$PROJECT_DIR$/custom_view" />
-            <option value="$PROJECT_DIR$/deep_linking" />
-            <option value="$PROJECT_DIR$/download_from_internet" />
-            <option value="$PROJECT_DIR$/drag_and_drop" />
-            <option value="$PROJECT_DIR$/expandablelistview" />
-            <option value="$PROJECT_DIR$/explistview" />
-            <option value="$PROJECT_DIR$/fragment_dialog" />
-            <option value="$PROJECT_DIR$/get_data_from_list_view" />
-            <option value="$PROJECT_DIR$/google_clould_messaging" />
-            <option value="$PROJECT_DIR$/grid_view_touch_listener" />
-            <option value="$PROJECT_DIR$/intent_service" />
-            <option value="$PROJECT_DIR$/internaldatabase" />
-            <option value="$PROJECT_DIR$/layout_multiple_screens" />
-            <option value="$PROJECT_DIR$/licenseinandroid2" />
-            <option value="$PROJECT_DIR$/material" />
-            <option value="$PROJECT_DIR$/motion_sensar" />
-            <option value="$PROJECT_DIR$/mylibrary" />
-            <option value="$PROJECT_DIR$/notification" />
-            <option value="$PROJECT_DIR$/parcelable_class" />
-            <option value="$PROJECT_DIR$/serverconnection" />
-            <option value="$PROJECT_DIR$/textviewanimation" />
-            <option value="$PROJECT_DIR$/xmpp_connection" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
